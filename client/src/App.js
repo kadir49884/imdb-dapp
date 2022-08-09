@@ -118,7 +118,7 @@ function App() {
           Balance:{" "}
           {parseFloat(ethers.utils.formatUnits(tokenBalance)).toFixed(0)}
         </h4>
-        <p>{isLocking ? "Token adding..." : ""}</p>
+        <p>{isLocking ? "Token adding...." : ""}</p>
       </div>
     </div>
   );
